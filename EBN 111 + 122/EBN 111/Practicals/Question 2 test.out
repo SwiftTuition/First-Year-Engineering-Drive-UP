@@ -1,0 +1,91 @@
+
+**** 02/29/12 12:36:55 ******* PSpice Lite (August 2007) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Question 2 test"  [ C:\Users\Anthony\Documents\EBN notes\question 2-pspicefiles\schematic1\question 2 test.s
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Question 2 test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\OrCAD\OrCAD_16.0_Demo\tools\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 3ms 0 
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source QUESTION 2
+R_R1         0 N00078  5  
+R_R2         N00165 N00078  20  
+R_R3         N00092 N00078  1  
+X_H1    N00165 0 N00092 0 SCHEMATIC1_H1 
+I_I1         0 N00078 DC 24Adc  
+
+.subckt SCHEMATIC1_H1 1 2 3 4  
+H_H1         3 4 VH_H1 20.3846
+VH_H1         1 2 0V
+.ends SCHEMATIC1_H1
+
+**** RESUMING "Question 2 test.cir" ****
+.END
+
+**** 02/29/12 12:36:55 ******* PSpice Lite (August 2007) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Question 2 test"  [ C:\Users\Anthony\Documents\EBN notes\question 2-pspicefiles\schematic1\question 2 test.s
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00078)  104.0000 (N00092)  106.0000 (N00165)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    X_H1.VH_H1   5.200E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 02/29/12 12:36:55 ******* PSpice Lite (August 2007) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Question 2 test"  [ C:\Users\Anthony\Documents\EBN notes\question 2-pspicefiles\schematic1\question 2 test.s
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

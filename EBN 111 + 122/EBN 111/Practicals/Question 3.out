@@ -1,0 +1,57 @@
+
+**** 02/22/12 15:25:09 ******* PSpice Lite (August 2007) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Question 3"  [ F:\Practical 1\Question 3\question 3-pspicefiles\schematic1\question 3.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Question 3.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\OrCAD\OrCAD_16.0_Demo\tools\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_V1 1V 5V 1V 
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source QUESTION 3
+R_R1         N00418 N00430  1  
+R_R3         0 N00430  2  
+R_R4         0 N00430  6  
+V_V1         N00418 0 12Vdc
+
+**** RESUMING "Question 3.cir" ****
+.END
+
+
+          JOB CONCLUDED
+
+**** 02/22/12 15:25:09 ******* PSpice Lite (August 2007) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Question 3"  [ F:\Practical 1\Question 3\question 3-pspicefiles\schematic1\question 3.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .05
+

@@ -1,0 +1,84 @@
+
+**** 02/22/12 14:50:20 ******* PSpice Lite (August 2007) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Question 1"  [ F:\Practical 1\Question 1\question 1-pspicefiles\schematic1\question 1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Question 1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\OrCAD\OrCAD_16.0_Demo\tools\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 3ms 0 
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source QUESTION 1
+R_R1         N00107 N00120  1  
+R_R2         N00120 0  2  
+V_V1         N00107 0 12Vdc
+
+**** RESUMING "Question 1.cir" ****
+.END
+
+**** 02/22/12 14:50:20 ******* PSpice Lite (August 2007) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Question 1"  [ F:\Practical 1\Question 1\question 1-pspicefiles\schematic1\question 1.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00107)   12.0000 (N00120)    8.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -4.000E+00
+
+    TOTAL POWER DISSIPATION   4.80E+01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 02/22/12 14:50:20 ******* PSpice Lite (August 2007) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Question 1"  [ F:\Practical 1\Question 1\question 1-pspicefiles\schematic1\question 1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .06
+

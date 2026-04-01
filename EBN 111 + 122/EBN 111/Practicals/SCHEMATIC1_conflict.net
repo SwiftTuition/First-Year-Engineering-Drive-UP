@@ -1,0 +1,6 @@
+* source QUESTION 2
+I_I1         DC 24Adc  
+R_R1         N00325  5  
+R_R2         N01543  20  
+R_R3         N02765  1  
+X_H1    N00589 M_UN0001 M_UN0002 SCHEMATIC1_H1 

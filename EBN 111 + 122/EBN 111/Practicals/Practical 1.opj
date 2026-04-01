@@ -1,0 +1,73 @@
+(ExpressProject "Practical 1"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\practical 1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "TRUE"))
+  (Folder "Outputs"
+    (File ".\practical 1-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\practical 1-pspicefiles\schematic1\question 1.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\practical 1-pspicefiles\schematic1\question 1.sim"
+        (DisplayName "SCHEMATIC1-Question 1")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (E
+      (FullPartName "E.Normal")
+      (LibraryName
+         "C:\DOCUMENTS AND SETTINGS\OZ.HP-6220\MY DOCUMENTS\UNIVERSITY\EBN\PRACTICALS\PRACTICAL 1\ORCAD_DEMO_1601\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\DOCUMENTS AND SETTINGS\OZ.HP-6220\MY DOCUMENTS\UNIVERSITY\EBN\PRACTICALS\PRACTICAL 1\ORCAD_DEMO_1601\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (IDC
+      (FullPartName "IDC.Normal")
+      (LibraryName
+         "C:\DOCUMENTS AND SETTINGS\OZ.HP-6220\MY DOCUMENTS\UNIVERSITY\EBN\PRACTICALS\PRACTICAL 1\ORCAD_DEMO_1601\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\DOCUMENTS AND SETTINGS\OZ.HP-6220\MY DOCUMENTS\UNIVERSITY\EBN\PRACTICALS\PRACTICAL 1\ORCAD_DEMO_1601\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Documents and Settings\OZ.HP-6220\My Documents\University\EBN\Practicals\Practical 1\OrCAD_Demo_1601\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 426"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 44 910 58 488")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\DOCUMENTS AND SETTINGS\OZ.HP-6220\MY DOCUMENTS\UNIVERSITY\EBN\PRACTICALS\PRACTICAL 1 TEST RUN\QUESTION 1\PRACTICAL 1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "OZ"))
