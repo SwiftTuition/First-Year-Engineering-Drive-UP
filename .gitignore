@@ -1,0 +1,17 @@
+# Video files (too large for GitHub)
+*.mp4
+*.avi
+*.wmv
+*.mkv
+*.mov
+
+# System files
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Dropbox
+.dropbox
+
+# Temp
+*.tmp
